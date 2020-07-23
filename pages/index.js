@@ -32,6 +32,10 @@ export default function Home() {
           </p>
         </div>
 
+        <p className="about">
+          A studio for forward-thinking education programmes.
+        </p>
+
         <a className="contact" href="mailto:sam@x27.dev">Contact</a>
       </main>
 
@@ -62,25 +66,27 @@ export default function Home() {
           color: inherit;
         }
 
+        .about {
+          font-size: 1.5rem;
+          font-style-type: italic;
+        }
+
         .services {
           display: flex;
           width: 61.8vw;
           align-items: center;
           justify-content: space-between;
           padding: 0;
-          max-width: 640px;
+          max-width: 540px;
           min-width: 320px;
-          margin: 0 auto;
+          margin: -5rem auto 1rem auto;
           color: #444;
         }
 
         .service {
           text-align: center;
-        }
-
-        .service {
           line-height: 1;
-          font-size: 1.5rem;
+          font-size: 1.2rem;
         }
 
         .contact {
