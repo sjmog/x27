@@ -70,6 +70,7 @@ export default function Home() {
 
         .about {
           font-size: 1.5rem;
+          text-align: center;
         }
 
         .services {
