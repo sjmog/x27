@@ -10,6 +10,8 @@
   "dependencies": {
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-katex": "^2.0.2",
+    "react-latex": "^2.0.0"
   }
 }
