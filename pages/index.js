@@ -34,10 +34,6 @@ export default function Home() {
           </p>
         </div>
 
-        <p className="about">
-          A studio for forward-thinking education programmes.
-        </p>
-
         <a className="contact" href="mailto:sam@x27.dev">Contact</a>
       </main>
 
